@@ -1,0 +1,42 @@
+{
+    "CIS*2030": {
+        "CIS*1910": null,
+        "CIS*2500": {
+            "CIS*1300": null
+        }
+    },
+    "CIS*3110": {
+        "CIS*2520": {
+            "CIS*1910": null,
+            "ENGG*1500": null,
+            "MATH*2000": {},
+            "(CIS*2500 or ENGG*1420), ": null
+        },
+        "CIS*2520CIS*2030": null,
+        "ENGG*2410": {
+            "CIS*1300": null,
+            "CIS*1500": null,
+            "ENGG*1410": null,
+            "PHYS*1130, ": null
+        },
+        ".": null
+    },
+    "CIS*3150": {
+        "CIS*2750": {
+            "CIS*2520": {
+                "CIS*1910": null,
+                "ENGG*1500": null,
+                "MATH*2000": {},
+                "(CIS*2500 or ENGG*1420), ": null
+            },
+            "CIS*2520CIS*2430": null,
+            "ENGG*1420": {
+                "ENGG*1410": null
+            }
+        },
+        "CIS*3490": {
+            "[CIS*1910 or (CIS*2910": null,
+            "ENGG*1500)], CIS*2520": null
+        }
+    }
+}
